@@ -1,2 +1,5 @@
 # Xaytex-Staff-Dashboard
-It's a Xaytex Dashboard for each Projekt and each person. You can control everythig from here.
+
+If you're a Xatex Member, you can controll everything for your account. 
+If you have a projekt, you can get from our project lead [Koni](https://github.com/vKxni) breafings.
+You can chat with him, or with other Developers.
