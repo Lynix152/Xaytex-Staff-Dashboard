@@ -11,7 +11,10 @@ also share code with him
 
 ## Run Project
 
-```
+1. install rust
+2. install our code in a folder
+3. run the project with: ```rust
 cargo run
 ```
+
 
