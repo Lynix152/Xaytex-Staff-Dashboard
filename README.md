@@ -6,3 +6,12 @@ If you have a projekt, you can get from our project lead [Koni](https://github.c
 
 You can chat with him, or with other Developers, you can control your work, 
 also share code with him
+
+
+
+## Run Project
+
+```
+cargo run
+```
+
