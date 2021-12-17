@@ -13,8 +13,6 @@ also share code with him
 
 1. install rust
 2. install our code in a folder
-3. run the project with: ```
-cargo run
-```
+3. run the project with: ```cargo run```
 
 
