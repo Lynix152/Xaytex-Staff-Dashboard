@@ -36,22 +36,28 @@ This project is licensed under the [MIT license](LICENSE).
 
 ````
 [//]: # ( Path: src/main.rs
-
+Project
 |--- README.md
 
 |--- LICENSE
 
 |--- Dashboard
 
-        |--- Cargo.toml
+    |--- Cargo.toml
 
-        |--- Cargo.lock
+    |--- Cargo.lock
 
         |--- src
 
             |--- main.rs
 
             |--- routes.rs
+           
+            |--- infrastructure
+                  
+                |--- db.rs
+
+                |--- models.rs
 
             |--- views
 
@@ -63,6 +69,10 @@ This project is licensed under the [MIT license](LICENSE).
 
                 |--- schema.sql
 
-            |--- images
+            |---   images
 
                 |--- logo.png
+
+    |--- tests
+
+        |--- main.rs
