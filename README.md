@@ -23,7 +23,9 @@ also share code with him
 
  ## Run Project with Docker
 
- -`docker run -p 8080:8080 -p 3306:3306 --name xaytex-staff-dashboard -d xaytex/xaytex-staff-dashboard`
+````dockerfile
+docker run -p 8080:8080 -p 3306:3306 --name xaytex-staff-dashboard -d xaytex/xaytex-staff-dashboard
+````
  
 
 ## License
@@ -35,52 +37,50 @@ This project is licensed under the [MIT license](LICENSE).
 
 
 ````
-
-______________________________________________________________
-|Project
-|--- README.md
-|
+Project: Xaytex-Staff-Dashboard
+Xaytex-Staff-Dashboard/
+    dashboard
+        ressources
+            images
+                |--- logo.png
+            views
+                |--- index.html
+            
+        src
+            data
+                database
+                    |--- db.rs
+                |--- mod.rs
+            domain
+                |--- github.rs
+                |--- routes.rs
+            infastructure
+                logging
+                    |--- config.rs
+                    |--- error.rs
+                    |--- logger.rs
+                    |--- middleware.rs
+                    |--- mod.rs
+                    |--- router.rs
+                server
+                    |--- mod.rs
+                    |--- config.rs
+                    |--- error.rs
+                    |--- server.rs
+                mod.rs
+            |--- main.rs
+            |--- mod.rs
+            |--- contribuitor.rs
+            
+        test
+            |--- main.rs
+            |--- mod.rs   
+            
+    |--- Cargo.lock
+    |--- Cargo.toml
+    |--- config.yml
+    |--- dashboard.env
+    
 |--- LICENSE
-|
-|--- Dashboard
-|
-|   |--- Cargo.toml
-|
-|   |--- Cargo.lock
-|   
-|   |--- config.yml
-|
-|   |--- src
-|
-|       |--- main.rs
-|
-|       |--- routes.rs
-|          
-|       |-- infrastructure
-|                 
-|           |--- db.rs
-|
-|           |--- models.rs
-|
-|       |-- views
-|
-|           |--- index.html
-|
-|       |-- data
-|
-|           |--- db.sqlite
-|
-|           |--- schema.sql
-|
-|       |--   images
-|
-|           |--- logo.png
-|
-|       |--- domain
-|           |--- routes.rs
-|           |--- github.rs
-|
-|--- tests
-|
-|   |--- main.rs
-|_____________________________________________________________
+|--- README.md
+````    

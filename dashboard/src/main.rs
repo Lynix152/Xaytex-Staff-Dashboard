@@ -5,12 +5,7 @@ mod db;
 
 
 
-
-
-
 fn main() {
     contributor::contributor();
     db::database();
 }
-
-
