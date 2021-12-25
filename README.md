@@ -35,44 +35,52 @@ This project is licensed under the [MIT license](LICENSE).
 
 
 ````
-[//]: # ( Path: src/main.rs
-Project
+
+______________________________________________________________
+|Project
 |--- README.md
-
+|
 |--- LICENSE
-
+|
 |--- Dashboard
-
-    |--- Cargo.toml
-
-    |--- Cargo.lock
-
-        |--- src
-
-            |--- main.rs
-
-            |--- routes.rs
-           
-            |--- infrastructure
-                  
-                |--- db.rs
-
-                |--- models.rs
-
-            |--- views
-
-                |--- index.html
-
-            |--- data
-
-                |--- db.sqlite
-
-                |--- schema.sql
-
-            |---   images
-
-                |--- logo.png
-
-    |--- tests
-
-        |--- main.rs
+|
+|   |--- Cargo.toml
+|
+|   |--- Cargo.lock
+|   
+|   |--- config.yml
+|
+|   |--- src
+|
+|       |--- main.rs
+|
+|       |--- routes.rs
+|          
+|       |-- infrastructure
+|                 
+|           |--- db.rs
+|
+|           |--- models.rs
+|
+|       |-- views
+|
+|           |--- index.html
+|
+|       |-- data
+|
+|           |--- db.sqlite
+|
+|           |--- schema.sql
+|
+|       |--   images
+|
+|           |--- logo.png
+|
+|       |--- domain
+|           |--- routes.rs
+|           |--- github.rs
+|
+|--- tests
+|
+|   |--- main.rs
+|_____________________________________________________________
