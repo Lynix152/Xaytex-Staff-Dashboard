@@ -1,11 +1,11 @@
 //! # Xaytex-dashboard
 
 mod contributor;
-mod db;
-
+mod data;
+mod widgets;
 
 
 fn main() {
     contributor::contributor();
-    db::database();
+    wid
 }
