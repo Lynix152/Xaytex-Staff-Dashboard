@@ -7,5 +7,5 @@ mod widgets;
 
 fn main() {
     contributor::contributor();
-    wid
+    widgets::gui::widget();
 }
