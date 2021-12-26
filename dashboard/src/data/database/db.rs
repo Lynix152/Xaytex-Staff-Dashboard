@@ -1,3 +1,5 @@
+#[warn(dead_code)]
+
 use sqlite;
 
 pub fn database()
