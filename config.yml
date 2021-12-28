@@ -1,0 +1,22 @@
+name: Xaytex-Staff-dashboard
+
+repo:
+  owner: xaytex
+  name: dashboard
+  icon: /.../Xaytex-Staff-dashboard/dashboard/src/images/logo.png
+
+xaytex:
+  documetation: https://xaytex.com/docs/
+  discord: https://discord.gg/
+  github: https://www.github.com/Xaytex/
+
+author: Lynix152, Koni
+
+languages: en, de
+
+description:
+  en: Xaytex Staff dashboard
+  de: Xaytex Mitarbeiter dashboard
+
+license: MIT
+
