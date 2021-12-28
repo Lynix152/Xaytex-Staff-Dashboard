@@ -1,6 +1,9 @@
 #[warn(dead_code)]
 
 use sqlite;
+extern crate firebase;
+
+use self::firebase::Firebase;
 
 pub fn database()
 {
@@ -9,9 +12,11 @@ pub fn database()
     connection
         .execute(
             "
-        CREATE TABLE users (name TEXT, age INTEGER);
-        INSERT INTO users VALUES ('Alice', 42);
-        INSERT INTO users VALUES ('Bob', 69);
+        CREATE TABLE Errors (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            error TEXT NOT NULL,
+            timestamp DATETIME NOT NULL
+        )
         ",
         )
         .unwrap();
@@ -26,4 +31,13 @@ pub fn database()
         .unwrap();
 
 
+}
+
+
+pub fn connect() -> Firebase
+{
+    let firebase = match Firebase::new("") {
+        OK(connection) => { connection }
+        Err(_) => { panic!("Could not get a connection to firebase. Please contact Lynix152") }
+    };
 }
