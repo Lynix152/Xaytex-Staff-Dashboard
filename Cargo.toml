@@ -9,7 +9,7 @@ authors = ["<Xaytex-Development-Team>"]
 [dependencies]
 
 iced = "0.3.0"
-
+druid = "0.7.0"
 
 [dependencies.sqlite]
 version = "0.26.0"
