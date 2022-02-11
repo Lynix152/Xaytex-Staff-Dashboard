@@ -1,6 +1,7 @@
 //! # Xaytex-dashboard
 
-mod appliction;
+
+mod dns;
 
 use actix_web::{App, HttpServer, web};
 use dotenv::dotenv;
