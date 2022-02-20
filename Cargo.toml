@@ -2,15 +2,24 @@
 name = "dashboard"
 version = "0.1.0"
 edition = "2021"
-authors = ["<Xaytex-Development-Team>"]
+authors = ["Lynix152", " Luca", " Koni"]
+contributors = ["Lynix152", " Luca", " Koni "]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-futures = "0.3.19"
 dotenv = "0.15.0"
-hyper = "0.14.16"
-snafu = "0.7.0"
+no_vpn = "0.1.1"
+futures = "0.3.21"
+stream-cancel = "0.8.1"
 tokio = "1.16.1"
-tower = "0.4.11"
+tokio-stream = "0.1.8"
+serde = "1.0.136"
+socket2 = "0.4.4"
+lambda_runtime = "0.4.1"
+
+
+[dependencies.mongodb]
+version = "2.1.0"
+default-features = false
+features = ["sync"]
